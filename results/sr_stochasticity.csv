@@ -1,0 +1,16 @@
+Dataset,Run,Seed,Formula
+HIGGS,0,100,cos(atan(x25))*0.6374749
+HIGGS,1,107,cos(atan(x25))*0.6374798
+HIGGS,2,114,cos(atan(x25))*0.63743746
+HIGGS,3,121,cos(atan(x25))*0.6374527
+HIGGS,4,128,cos(atan(x25))*0.63744915
+FOREST_COVER,0,100,cos(sqrt(Abs(x0 + 0.66404694) + 1.0e-8))
+FOREST_COVER,1,107,cos(sqrt(Abs(x0 + 0.66404694) + 1.0e-8))
+FOREST_COVER,2,114,cos(sqrt(Abs(x0 + 0.6640144) + 1.0e-8))
+FOREST_COVER,3,121,cos(sqrt(Abs(x0 + 0.66404694) + 1.0e-8))
+FOREST_COVER,4,128,cos(sqrt(Abs(x0 + 0.66412574) + 1.0e-8))
+SPAMBASE,0,100,sin(atan((x52 + x54 + x6 + exp(x23))/exp(2*x24 - 2*x51)))
+SPAMBASE,1,107,atan(atan(exp(2*x23 - 2*x24 + 2*x51 + 2*x52 + 2*x6)))
+SPAMBASE,2,114,atan(atan((x52 + x54 + x6 + exp(x23))*exp(x24*(-5.2956395) + x51)))**2
+SPAMBASE,3,121,atan(atan(exp(2*x23 - 2*x24 + 2*x51 + 2*x52 + 2*x6)))
+SPAMBASE,4,128,atan(atan(exp(2*x23 - 2*x24 + 2*x51 + 2*x52 + 2*x6)))

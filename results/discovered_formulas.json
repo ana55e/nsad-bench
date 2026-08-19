@@ -1,0 +1,42 @@
+{
+  "HIGGS": {
+    "formula": "cos(atan(x25))*0.6409546",
+    "best_fraction": "10pct",
+    "abstraction_r": 0.1775719927340522
+  },
+  "FOREST_COVER": {
+    "formula": "cos(sqrt(Abs(x0 + 0.6317018) + 1.0e-8))",
+    "best_fraction": "20pct",
+    "abstraction_r": 0.41883488063719326
+  },
+  "SPAMBASE": {
+    "formula": "sin(atan((x54 + x6 + x7 + exp(x52))*exp(x4 + x51 - (-x13 + x24*3.659833))))",
+    "best_fraction": "20pct",
+    "abstraction_r": 0.471989783295857
+  },
+  "MINIBOONE": {
+    "formula": "atan(atan(exp(-(-x15 + cos(x26 - x31/x0)) + log(Abs(x2) + 1.0e-8))))",
+    "best_fraction": "100pct",
+    "abstraction_r": 0.6519685028643976
+  },
+  "MAGIC_TELESCOPE": {
+    "formula": "cos(atan(exp(x0 + x8)))",
+    "best_fraction": "100pct",
+    "abstraction_r": 0.5810867248214964
+  },
+  "PHONEME": {
+    "formula": "atan(sin(x3) + 0.28598818)**2",
+    "best_fraction": "100pct",
+    "abstraction_r": 0.45755646058855637
+  },
+  "EEG_EYE_STATE": {
+    "formula": "atan(sin(x0 + log(Abs(x5) + 1.0e-8) + Abs(x6) + 1.6223873)**2)",
+    "best_fraction": "100pct",
+    "abstraction_r": -0.14430907250190786
+  },
+  "WILT": {
+    "formula": "sin(atan(1367.40441059463*(-atan(x2) + atan(x1 - 1*0.259321))**8*sin(x1 - sqrt(exp(re(x3)) + 1.0e-8))**8))",
+    "best_fraction": "100pct",
+    "abstraction_r": 0.0920713327075249
+  }
+}
